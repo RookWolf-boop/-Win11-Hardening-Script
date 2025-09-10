@@ -25,7 +25,7 @@ function Enable-Updates {
 
 function User-Auditing {
     Write-Host "`n--- Starting: User Auditing ---`n"
-    
+    Write-Host "Debug Test"
     # Loop through all users
     foreach ($user in $users) {
     $username = $user.Name
